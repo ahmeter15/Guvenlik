@@ -17,7 +17,7 @@ mongoose.connect(process.env.BAGLANTI, {
   useUnifiedTopology: true
 });
 
-
+//Buraya not yazdım
 const uyeSemasi = new mongoose.Schema({
   email : String,
   sifre : String
