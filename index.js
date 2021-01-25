@@ -17,6 +17,7 @@ mongoose.connect(process.env.BAGLANTI, {
   useUnifiedTopology: true
 });
 
+
 const uyeSemasi = new mongoose.Schema({
   email : String,
   sifre : String
